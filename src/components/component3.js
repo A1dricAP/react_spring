@@ -32,7 +32,7 @@ export class component3 extends Component {
 const c2style={
     background:'pink',
     color:'white',
-    padding:'1.5rem'
+    padding:'0.1rem'
 }
 
 export default component3

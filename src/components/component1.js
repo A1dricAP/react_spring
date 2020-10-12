@@ -30,5 +30,5 @@ export default function component1() {
 const c1style={
     background:'steelblue',
     color:'white',
-    padding:'1.5rem'
+    padding:'0.01rem'
 }
