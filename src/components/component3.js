@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
 import {Spring} from 'react-spring/renderprops'
 
-export class component2 extends Component {
+export class component3 extends Component {
     render() {
         return (
-            <Spring from={{opacity:0 }} to={{opacity:1}} config={{delay:1000, duration:1000}}>
+            <Spring from={{opacity:0 }} to={{opacity:1}} config={{delay:2000, duration:2000}}>
             {props=>(
                 <div style={props}>
                     <div style={c2style}>
@@ -30,9 +30,9 @@ export class component2 extends Component {
 
 
 const c2style={
-    background:'slateblue',
+    background:'pink',
     color:'white',
     padding:'1.5rem'
 }
 
-export default component2
+export default component3

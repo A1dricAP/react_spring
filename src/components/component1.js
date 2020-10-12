@@ -17,12 +17,15 @@ export default function component1() {
             the design.
             </p>
         </div>
-                </div>
-            )}
+     </div>
+                
+            )
+            }
         </Spring>
         
     )
 }
+
 
 const c1style={
     background:'steelblue',
